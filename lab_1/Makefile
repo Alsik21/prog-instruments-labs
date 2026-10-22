@@ -25,7 +25,7 @@ install:
  python -m pip install ruff pyright pre-commit pytest build
 
 run:
- python lab.1.py, data.txt 
+ python lab.1.py, data.txt
 
 lint:
  python -m ruff check .
@@ -38,7 +38,7 @@ format:
 
 typecheck:
  python -m mypy lab.1.py
- 
+
 
 fullcheck: lint format-check typecheck
 
