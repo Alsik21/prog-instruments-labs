@@ -3,4 +3,3 @@
  int b;
  for(int i=0, i =< a, i++){
 	 int arr[100]=0;
-	 
